@@ -27,7 +27,8 @@ class Song
   end
   
   def genre_count
-    
+    @@genres.each do |genre|
+      {genre => }
   end
   
   def artist_count
